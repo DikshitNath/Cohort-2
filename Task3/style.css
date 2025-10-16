@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    background-color: rgba(39, 39, 39, 0.503);
+    position: fixed;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#nav h4{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#center{
+    text-align: center;
+    color: #ffffff;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_largetall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#center h1{
+    padding-top: 6%;
+    font-size: 45px;
+    font-weight: 600;
+}
+#center h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#learn{
+    margin-top: 15px;
+    background-color: rgb(0, 140, 233);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#buy{
+    margin-top: 15px;
+    background-color: rgba(0, 140, 233, 0);
+    border: 1px solid rgb(0, 140, 233);
+    color: rgb(0, 140, 233);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#iphone-air{
+    margin-top: 1%;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#iphone-air h2{
+    padding-top: 3%;
+    font-size: 45px;
+    font-weight: 600;
+}
+#iphone-air p{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+#iphone-17{
+    margin-top: 1%;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#iphone-17 h2{
+    padding-top: 3%;
+    font-size: 45px;
+    font-weight: 600;
+}
+#iphone-17 p{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 7px;
+}
+
+#more1{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+#more2{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+#icloud{
+    text-align: center;
+    height: 100%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/icloud-plus/promo_icloud_plus__d4639vh3tz2a_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#games{
+    text-align: center;
+    color: #ffffff;
+    height: 100%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-games/promo_apple_games__bfy0db0xi602_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#AirPods{
+    text-align: center;
+    height: 100%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ipad{
+    text-align: center;
+    height: 100%;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/ipad-air/promo_ipad_air_avail__6i02t7nujr62_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#icloud h2, #games h2, #ipad h2, #AirPods h2{
+    padding-top: 5%;
+    font-size: 45px;
+    font-weight: 600;
+}
+#icloud p, #games p, #ipad p, #AirPods p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 7px;
+}

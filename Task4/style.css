@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    height: 300px;
+    width: 330px;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info{
+    height: 40%;
+  width: 100%;
+  position: absolute;
+  bottom: -40%;
+    transition: all ease 0.4s;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(transparent,black);
+}
+.card:hover .info{
+  bottom: 0;
+}

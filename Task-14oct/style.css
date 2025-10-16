@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1vw;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "left right-up right-up right-up" "left right-up right-up right-up" "left right-bottom-left right-bottom-mid right-bottom-right";
+  gap: 1vw;
+  background-color: rgb(53, 53, 53);
+}
+
+#left {
+  grid-area: left;
+  background-image: url(https://images.unsplash.com/photo-1759936802371-e3c6eaf657a1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=685);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1vw;
+}
+
+#right-up {
+  grid-area: right-up;
+  background-image: url(https://images.unsplash.com/photo-1759496435064-c81eddcb9b95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1vw;
+}
+
+#right-bottom-left {
+  grid-area: right-bottom-left;
+  background-image: url(https://images.unsplash.com/photo-1759845565036-cbecbcfcb8e2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1vw;
+}
+
+#right-bottom-mid {
+  grid-area: right-bottom-mid;
+  background-image: url(https://images.unsplash.com/photo-1760238817093-d5e65192611d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=685);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1vw;
+}
+
+#right-bottom-right {
+  grid-area: right-bottom-right;
+  background-image: url(https://images.unsplash.com/photo-1745240028034-b59a57945eea?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=703);
+  background-position: center;
+  background-size: cover;
+  border-radius: 1vw;
+}/*# sourceMappingURL=style.css.map */

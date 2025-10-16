@@ -1,0 +1,11 @@
+vw => viewport width
+vh => viewport height
+
+viewport ki width => 800px
+viewport ki height => 600px
+
+100 vh => 600px
+100 vw => 800px
+
+so, 50vh => 300px
+50vw => 400px
