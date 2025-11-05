@@ -132,12 +132,11 @@ console.log(posCont);
 
 let balance = 1000;
 let withdrawals = 3;
-while (withdrawals) {
+while (withdrawals--) {
     let withdrawal = parseInt(prompt("Enter withdrawal amount"));
     if (withdrawal <= balance) {
         balance -= withdrawal;
         console.log(`Rs.${withdrawal} deducted`);
-        withdrawals--;
     } else {
         console.log("Insufficient balance");
     }
